@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Literacy : Vishal Malviya</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+/* Header */
+header {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    background: #00509e;
+    text-align: center;
+    padding: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background: yellow;
+}
+
+/* Image Banner */
+.banner {
+    position: relative;
+    height: 300px;
+    background: url("https://vitbhopal.ac.in/wp-content/uploads/2024/03/VITB-Background.jpeg") no-repeat center center/cover;
+}
+
+/* Dark overlay on image */
+.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+/* Sections */
+section {
+    display: none;
+    padding: 20px;
+}
+
+.active {
+    display: block;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* Buttons */
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Digital Literacy : Vishal Malviya</h1>
+    <p><i> ~ place to learn and explore ideas!</i></p>
+</header>
+
+<nav>
+    <button onclick="showSection('home')">Home</button>
+    <button onclick="showSection('learn')">Learn</button>
+    <button onclick="showSection('quiz')">Quiz</button>
+    <button onclick="showSection('safety')">Cyber Safety</button>
+</nav>
+
+<!-- IMAGE BELOW BLUE LINE -->
+<div class="banner"></div>
+
+<!-- HOME -->
+<section id="home" class="active">
+    <div class="card">
+        <h2><i>25BAI10287</i>
+        
+        </h2>
+        <p><i>Hello! </i>I am <u>Vishal Malviya</u><i> welcoming you</i></p>
+        <p>This app helps beginners learn internet, email, and online safety.</p>
+    </div>
+</section>
+
+
+<!-- LEARNING -->
+<section id="learn">
+    <div class="card">
+        <h2><i>Know More About Data Literacy </i></h2>
+        <h3><b>Module 1</b></h3>
+        <p>Module 1: Introduction & Digital Devices  
+Definition  
+
+Digital literacy is the ability to use digital devices, the internet, and technology effectively and safely.  
+<br>
+Importance  
+- Helps in education and online learning  
+- Improves communication  
+- Saves time and effort  
+- Provides job opportunities  
+<br>
+Digital Devices  
+- Computer  
+- Smartphone  
+- Tablet  
+<br>
+Basic Skills  
+- Typing  
+- Using apps and browsers  
+- Searching for information  
+<br>
+Conclusion  
+<br>
+Digital literacy is essential for everyone in today’s digital world.  </p>
+    </div>
+
+    <div class="card">
+        <h3><b>Module 2</b></h3>
+        <p>Email is used to send messages online.Module 2: Internet & Communication <br> 
+Internet  
+
+The internet is a global network connecting millions of computers.  
+
+<br>Uses  
+- Searching for information  
+- Watching videos  
+- Online classes  
+- Social networking  
+<br>
+Web Browser  
+
+Software used to access the internet:  
+- Chrome  
+- Edge  
+- Firefox  
+<br>
+Email  
+
+Electronic mail used for communication.  
+
+Structure:  
+- To  
+- Subject  
+- Message  
+- Attachment  
+<br>
+Conclusion  
+
+The internet and email make communication fast and easy.  
+
+
+    <div class="card">
+        <h3><b>Module 3</b></h3>
+        <p>Module 3: Social Media & Digital Platforms  
+<br>Social Media  
+
+Online platforms for connecting and sharing content.  
+
+<br>Examples  
+- Instagram  
+- Facebook  
+- WhatsApp  
+<br>
+Uses  
+- Communication  
+- Sharing media  
+- News updates  
+<br>
+Advantages  
+- Connect globally  
+- Easy interaction  
+<br>
+Disadvantages  
+- Addiction  
+- Fake news  
+<br>
+Conclusion:  
+
+Use social media wisely and responsibly.</p>
+    </div>
+
+
+
+ <div class="card">
+        <h3><b>Module 4</b></h3>
+        <p>Module 4: Cyber Safety & Security  
+<br>Cyber Safety  
+
+Protection from online threats.  
+
+<br>Common Threats  
+- Hacking  
+- Phishing  
+- Malware  
+
+<br>Safety Tips  
+- Use strong passwords  
+- Do not share OTP  
+- Avoid unknown links  
+
+<br>Password Rules  
+- Use letters and numbers  
+- Minimum 6 to 8 characters  
+
+<br>Conclusion  
+
+Cyber safety is necessary to stay protected online.  
+</p>
+    </div>
+
+<div class="card">
+        <h3><b>Module 5</b></h3>
+        <p>Module 5: Digital Ethics & Future Skills  
+<br>Digital Ethics  
+
+Rules for responsible internet use.  
+
+Good Practices  
+- Respect others  
+- Avoid cyberbullying  
+- Do not spread fake news  
+
+<br>Fake News  
+
+False information spread online.  
+
+<br>Future Skills  
+- Coding  
+- AI tools  
+- Digital marketing  
+
+<br>Career Scope  
+- Software Developer  
+- Data Analyst  
+
+<br>Conclusion  
+
+Digital literacy builds a strong future and responsible digital citizens.  
+</p>
+    </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+    <div class="card">
+        <h2>Quiz</h2>
+        <p>DL stands for?</p>
+
+        <button onclick="checkAnswer('wrong')">A. Device Language </button>
+        <button onclick="checkAnswer('correct')">B. Digital Literacy</button>
+        <button onclick="checkAnswer('wrong')">C. Data Learning</button>
+
+        <p id="result"></p>
+    </div>
+</section>
+
+<!-- CYBER SAFETY -->
+<section id="safety">
+    <div class="card">
+        <h2>Cyber Safety</h2>
+
+        <h3>Password Checker</h3>
+        <input type="text" id="password" placeholder="Enter password">
+        <button onclick="checkPassword()">Check</button>
+        <p id="strength"></p>
+
+        <h3>Tips</h3>
+        <ul>
+            <li>Do not share OTP</li>
+            <li>Use strong passwords</li>
+            <li>Avoid unknown links</li>
+        </ul>
+    </div>
+</section>
+
+<script>
+function showSection(sectionId) {
+    let sections = document.querySelectorAll("section");
+    sections.forEach(sec => sec.classList.remove("active"));
+    document.getElementById(sectionId).classList.add("active");
+}
+
+function checkAnswer(answer) {
+    let result = document.getElementById("result");
+
+    if (answer === "correct") {
+        result.innerHTML = "✅ Correct!";
+        result.style.color = "green";
+    } else {
+        result.innerHTML = "❌ Wrong!";
+        result.style.color = "red";
+    }
+}
+
+function checkPassword() {
+    let pass = document.getElementById("password").value;
+    let strength = document.getElementById("strength");
+
+    if (pass.length < 6) {
+        strength.innerHTML = "Weak Password";
+        strength.style.color = "red";
+    } else if (pass.match(/[A-Z]/) && pass.match(/[0-9]/)) {
+        strength.innerHTML = "Strong Password";
+        strength.style.color = "green";
+    } else {
+        strength.innerHTML = "Medium Password";
+        strength.style.color = "orange";
+    }
+}
+</script>
+
+</body>
+</html>
